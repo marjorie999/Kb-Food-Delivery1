@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Poppins:wght@400;700&family=Ultra&display=swap');
+
+body, html {
+    padding: 0;
+    margin: 0;
+    /* background-color: #EBEEED !important; */
+}
+
+.wrapper {
+    /* background-image: url('./assets/images/food-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(35, 35, 35, 0.3); */
+    height: 100%;
+}
+
+.content {
+    height: 100vh;
+}
+
+.navbar {
+    height: 80px;
+}
+
+.navbar-brand {
+    font-family: 'Ultra', serif !important;
+    font-size: 30px !important;
+    color: white !important
+}
+
+.nav-link {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: white !important;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.active {
+    border-bottom: 2px solid white !important;
+}
+
+.btn-danger {
+    background-color: rgb(164, 33, 13) !important;
+}
+
+.section-1{
+    background-color: rgb(164, 33, 13);
+    font-family: 'Poppins', sans-serif !important;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.section-2{
+    /* background-color: rgb(164, 33, 13); */
+    font-family: 'Poppins', sans-serif !important;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem !important;
+    padding-bottom: 2.5rem;
+}
+
+.section-3{
+    background-color: rgb(164, 33, 13);
+    font-family: 'Poppins', sans-serif !important;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu-section-1{
+    background-color: rgb(164, 33, 13);
+    font-family: 'Poppins', sans-serif !important;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+}
+
+.menu-section-1 p {
+    text-align: center;
+    color: white;
+    font-size: 60px !important;
+    font-weight: 700;
+}
+
+.section-image{
+    /* background-image: url('./assets/images/section-image-1.jpg'); */
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+    border-radius: 20px;
+    max-height: auto !important;
+    width: 100% !important;
+    display: flex;
+    justify-content: end;
+    padding: 2rem;
+    position: relative;
+}
+
+.sec-header{
+    color: black;
+    text-align: center;
+    font-weight: 700;
+}
+
+.section-image h1 {
+    /* position: absolute;
+    text-align: center;
+    font-weight: 700;
+    right:20%;
+    top: 30%;
+    -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black; */
+}
+
+.sec-button {
+    text-align: center !important;
+}
+
+.section-image button {
+    position: absolute;
+    right:20%;
+    top: 50%;
+}
+
+.sec-image{
+    border-radius: 20px !important;
+    width: 100%;
+    max-height: 391px !important;
+    
+}
+
+.search-input {
+    width: 100%;
+    font-size: 30px;
+    border-radius: 15px;
+    border: 1px solid rgb(129, 28, 12);
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.search-input:hover{
+    border: none;
+}
+
+
+.burger2{
+    height: 80vh;
+}
+
+.seafood{
+    height: 80vh;
+}
+
+.menus button {
+    color: black !important;
+}
+
+.menus .active {
+    background-color: #F6BE00 !important;
+    color: white !important;
+}
+
+.menus {
+    overflow-x: auto !important;
+   overflow-y:hidden !important;
+   /* flex-wrap: nowrap !important; */
+   /* background-color: rgb(222, 211, 211); */
+}
+
+.menus .nav-link {
+font-family: 'Poppins', sans-serif !important;
+    font-size: 20px !important;
+    /* white-space: nowrap !important; */
+}
+
+.food-menu {
+    height: 150px;
+    min-width: 300px;
+}
+
+.menu-card:hover {
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+.food-menu-title {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600;
+    font-size: 30px;
+}
+.food-menu-price{
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600;
+    font-size: 20px;
+}
+.food-menu-description {
+    font-size: 18px;
+}
+
+.food-menu-link {
+    text-decoration: none;
+    color: black;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.order-card {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: .8rem;
+    margin-bottom: 1rem;
+}
+
+.order-pic {
+    height: auto;
+    width: 8vw;
+}
+
+.order-title {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.order-price {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.order-desc {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.page-body {
+    position: relative;
+}
+
+.bag-button {
+    
+    /* background-color: #F6BE00; */
+    color: black;
+    padding: 10px 15px;
+    font-size: 30px !important;
+    border-radius: 50% !important;
+    text-decoration: none;
+}
+
+.bag-container {
+    position: absolute;
+    right: 5%;
+    bottom: 1px;
+}
+
+.bag-button span {
+    position: relative;
+}
+
+.bag-badge {
+    position: absolute;
+    font-size: 18px;
+}
+
+.checkout-price{
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .sec-image {
+        max-height: 200px !important;
+    }
+    #navbarSupportedContent{
+        background-color: rgb(133, 28, 12);
+        padding-bottom: 5px;
+        border-radius: 10px;
+    }
+    .food-menu {
+        height: 10vh;
+        width: auto;
+    }
+    .food-menu-title, .food-menu-price {
+        font-family: 'Poppins', sans-serif !important;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+    .food-menu-description {
+        font-size: 18px;
+    }
+ }
+
+
+@media only screen and (max-width: 600px) {
+    .search-box-container {
+        width: 100vw;
+    }
+    .burger2{
+        height: 50vh;
+    }
+    .seafood{
+        height: 30vh;
+    }
+    .section-image{
+        padding: 0.5rem;
+    }
+    .section-3{
+        height: 50vh;
+    }
+    .menu-section-1{
+        height: 20vh;
+    }
+    .food-menu {
+        height: 10vh;
+        min-width: 130px !important;
+    }
+
+    .menu-card {
+        background-color: antiquewhite;
+        border-radius: 20px;
+        margin-bottom: 1rem;
+    }
+    .menus {
+        background-color: antiquewhite;
+        padding: 1rem;
+        border-radius: 20px;
+    }
+    .order-pic {
+        height: auto;
+        width: 40vw;
+    }
+ }
